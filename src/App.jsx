@@ -1,14 +1,21 @@
 import React from "react";
-import Carousel from "./Carousel";
-import "./styles.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Navbar";
+import Carousel from "./Carousel"; // Este es nuestro "Home"
+
+function Home() {
+  return <Carousel />; // Página principal
+}
 
 function App() {
   return (
-    <div className="app-container">
-      <Carousel />
-    </div>
+    <Router>
+      <Navbar /> {/* 👈 Navbar siempre visible */}
+      <Routes>
+        <Route path="/App" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
-
