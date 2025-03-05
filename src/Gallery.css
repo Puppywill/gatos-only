@@ -1,0 +1,55 @@
+.gallery-container {
+    text-align: center;
+    margin-top: 20px; /* Reduce el margen superior */
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Asegura que las tarjetas estén alineadas */
+    gap: 15px; /* Reduce el espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que sea responsive */
+    max-width: 100%;
+    padding: 10px;
+}
+
+.gallery-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    max-width: 280px; /* Ajusta el tamaño de las tarjetas */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.gallery-item p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+
+/* Efecto al pasar el mouse */
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Imágenes dentro de la galería */
+.gallery-img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
