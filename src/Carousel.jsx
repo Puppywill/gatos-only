@@ -42,10 +42,10 @@ const Carousel = () => {
         ))}
       </div>
 
-      {/* Footer */}
-      <footer className="footer">
-        <p>Gatos Only © 2025 | Diseñado con ❤️ por <b>Tu Nombre</b></p>
-      </footer>
+
+   
+      
+
     </div>
   );
 };

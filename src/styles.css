@@ -108,8 +108,33 @@ footer {
 
 }
 
-/* Ajuste en móviles */
+
+
+
+
+/* Ajustar tamaño del carrusel en móviles */
 @media (max-width: 768px) {
+    .carousel {
+        width: 90%; /* Se ajusta automáticamente */
+        max-width: 400px; /* Limita el tamaño en pantallas pequeñas */
+    }
+
+    .carousel img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Bordes redondeados */
+    }
+
+    .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prev, .next {
+        font-size: 24px; /* Reducir tamaño de las flechas */
+    }
+
     footer {
         width: 50%;
         font-size: 12px;
