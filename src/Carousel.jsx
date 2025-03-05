@@ -24,7 +24,7 @@ const Carousel = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Gatos Only 🐱</h1>
+   
       <div className="carousel">
         <button className="prev" onClick={() => moveSlide(-1)}>&#10094;</button>
         <div className="carousel-container">
