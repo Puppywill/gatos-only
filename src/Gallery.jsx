@@ -12,20 +12,23 @@ const Gallery = () => {
       <h1 className="gallery-title">🐾 Nuestra Galería de Gatos 🐱</h1>
 
       <div className="gallery">
+        {/* Imagen 1 */}
         <div className="gallery-item">
-          <img src={img1} alt="Ambar" />
+          <img src={img1} alt="Ambar" className="gallery-img" />
           <h3>Ambar</h3>
           <p>Una gata curiosa y cariñosa.</p>
         </div>
 
+        {/* Imagen 2 */}
         <div className="gallery-item">
-          <img src={img2} alt="Perla" />
+          <img src={img2} alt="Perla" className="gallery-img" />
           <h3>Perla</h3>
           <p>Una gata cobarde y no le gusta socializar.</p>
         </div>
 
+        {/* Imagen 3 */}
         <div className="gallery-item">
-          <img src={img3} alt="Luna" />
+          <img src={img3} alt="Luna" className="gallery-img" />
           <h3>Luna</h3>
           <p>Es una gata tranquila y observadora.</p>
         </div>

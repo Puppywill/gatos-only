@@ -8,12 +8,25 @@
     width: 90%;
     max-width: 900px;
     border-radius: 12px;
-    margin: 0 auto; /* Asegurar que esté centrado sin espacio extra */
+    margin: 20px auto; /* Asegurar que esté centrado sin espacio extra */
+    transition: background 0.3s ease-in-out;
 }
 
+/* Logo del navbar */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: fadeIn 1s ease-in-out, glow 1.5s infinite alternate ease-in-out;
+}
+
+/* Menú de navegación */
 .nav-links {
     display: flex;
-    gap: 25px; /* Espaciado entre los elementos */
+    gap: 25px;
     align-items: center;
     list-style: none;
 }
@@ -32,18 +45,6 @@
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
 }
 
-/* Logo del navbar */
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-
-
 /* Botón del menú hamburguesa */
 .menu-toggle {
     display: none;
@@ -59,32 +60,38 @@
     }
 
     .nav-links {
-        display: none;
-        flex-direction: column;
-        background: rgba(0, 0, 0, 0.8);
         position: absolute;
         top: 60px;
         right: 10px;
+        width: 200px;
+        background: rgba(0, 0, 0, 0.9);
         border-radius: 10px;
         padding: 10px;
-        width: 150px;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
     }
 
     .nav-links.show {
         display: flex;
     }
 
-    .nav-links li {
-        text-align: center;
+    .nav-links a {
+        color: white;
         padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+    }
+
+    .nav-links a:hover {
+        background: #ffcc00;
+        color: black;
+        border-radius: 5px;
     }
 }
 
-
-
-/* Esto es la animaciones del gato only navbar */
-
-
+/* Animación para "Gatos Only" */
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -107,14 +114,3 @@
         text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00;
     }
 }
-
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    animation: fadeIn 1s ease-in-out, glow 1.5s infinite alternate ease-in-out;
-}
-

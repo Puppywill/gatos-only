@@ -11,37 +11,36 @@ const images = [imagen1, imagen2, imagen3];
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // Función para mover el slide
   const moveSlide = (step) => {
-    const newIndex = currentIndex + step;
-    if (newIndex < 0) {
-      setCurrentIndex(images.length - 1); // Ir a la última imagen si estás en la primera
-    } else if (newIndex >= images.length) {
-      setCurrentIndex(0); // Volver a la primera imagen si estás en la última
-    } else {
-      setCurrentIndex(newIndex);
-    }
+    setCurrentIndex((prevIndex) => (prevIndex + step + images.length) % images.length);
   };
 
   return (
     <div className="container">
-   
+      {/* Carrusel */}
       <div className="carousel">
-        <button className="prev" onClick={() => moveSlide(-1)}>&#10094;</button>
+        <button className="prev" onClick={() => moveSlide(-1)} aria-label="Imagen anterior">
+          &#10094;
+        </button>
         <div className="carousel-container">
-          <img className="carousel-slide" src={images[currentIndex]} alt="Gato" />
+          <img className="carousel-slide" src={images[currentIndex]} alt={`Gato ${currentIndex + 1}`} />
         </div>
-        <button className="next" onClick={() => moveSlide(1)}>&#10095;</button>
+        <button className="next" onClick={() => moveSlide(1)} aria-label="Imagen siguiente">
+          &#10095;
+        </button>
       </div>
+
+      {/* Indicadores */}
       <div className="indicators">
         {images.map((_, index) => (
-          <span 
-            key={index} 
-            className={`dot ${currentIndex === index ? "active" : ""}`} 
+          <span
+            key={index}
+            className={`dot ${currentIndex === index ? "active" : ""}`}
             onClick={() => setCurrentIndex(index)}
           ></span>
         ))}
       </div>
-      
     </div>
   );
 };
