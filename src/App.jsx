@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Carousel from "./Carousel";
+import Gallery from "./Gallery"; // Importamos la Galería
 import "./styles.css";
 
 function App() {
@@ -10,11 +11,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Carousel />} />
-        <Route path="/galeria" element={<h1>Galería de Gatos</h1>} />
-        <Route path="/contacto" element={<h1>Contacto</h1>} />
+        <Route path="/galeria" element={<Gallery />} />
       </Routes>
 
-     
+      <footer>
+        <p>Gatos Only © 2025 | Diseñado con ❤️ por <b>Tu Nombre</b></p>
+      </footer>
     </Router>
   );
 }
