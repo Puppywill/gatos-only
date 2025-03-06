@@ -1,68 +1,47 @@
-# 🐱 Gatos Only
+# Gatos Only 🐱
 
-Bienvenido a **Gatos Only**, una página web dedicada a los amantes de los gatos. Aquí puedes ver una galería de gatos con un diseño moderno y elegante. 🐾
+Welcome to **Gatos Only**, a beautiful and interactive gallery dedicated to showcasing adorable cats! 🐾
 
----
+## 📸 Screenshot
+![Gatos Only Screenshot](screenshot.png)
 
-## 🌟 Captura de pantalla
+## 🚀 Features
+- **Responsive Design** 📱💻
+- **Interactive Image Carousel** 🎞️
+- **Modern Contact Form** ✉️
+- **Smooth Animations** 🎨
+- **Dark Mode UI** 🌙
 
-![Gatos Only](screenshot.png)
+## 🛠️ Technologies Used
+- **React.js** ⚛️
+- **React Router** 🚏
+- **CSS3 & Animations** 🎨
+- **Vite** ⚡
 
----
+## 🔧 Installation & Setup
+Follow these steps to run the project locally:
 
-## 🚀 Instalación y ejecución
-
-### 1️⃣ **Clonar el repositorio**
 ```bash
-git clone https://github.com/tu-usuario/gatos-only.git
+# Clone the repository
+git clone https://github.com/yourusername/gatos-only.git
+
+# Navigate to the project folder
 cd gatos-only
-```
 
-### 2️⃣ **Instalar dependencias**
-```bash
+# Install dependencies
 npm install
-```
 
-### 3️⃣ **Ejecutar el proyecto**
-```bash
+# Start the development server
 npm run dev
 ```
-Esto abrirá la página en tu navegador automáticamente. 🚀
+
+Then, open `http://localhost:5173` in your browser to view the project.
+
+## 📬 Contact
+If you have any questions or suggestions, feel free to reach out:
+- **Email:** williamarosado@gmail.com
+- **GitHub:** [yourusername](https://github.com/Puppywill)
 
 ---
-
-## 🎨 Tecnologías utilizadas
-- ⚛️ React.js
-- 💨 Tailwind CSS
-- 🎨 CSS personalizado
-- 📦 Vite.js
-
----
-
-## 📂 Estructura del proyecto
-```
-📦 gatos-only
- ┣ 📂 public
- ┣ 📂 src
- ┃ ┣ 📂 assets
- ┃ ┣ 📂 components
- ┃ ┃ ┣ 📜 Navbar.jsx
- ┃ ┃ ┣ 📜 Gallery.jsx
- ┃ ┃ ┗ 📜 Contact.jsx
- ┃ ┣ 📜 App.jsx
- ┃ ┣ 📜 main.jsx
- ┃ ┣ 📜 styles.css
- ┣ 📜 package.json
- ┣ 📜 README.md
- ┗ 📜 vite.config.js
-```
-
----
-
-## 📬 Contacto
-Si tienes alguna sugerencia o pregunta, ¡contáctanos!
-✉️ **Email:** tuemail@example.com  
-🐱 **Instagram:** [@gatosonly](https://instagram.com/gatosonly)  
-
-¡Gracias por visitar **Gatos Only**! ❤️
+🐱 **Gatos Only © 2025** | Built with ❤️ by **Your Name**
 
