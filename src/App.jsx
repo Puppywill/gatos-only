@@ -17,7 +17,7 @@ function App() {
       </Routes>
 
       <footer>
-        <p>Gatos Only © 2025 | Diseñado con ❤️ por <b>Tu Nombre</b></p>
+        <p>Gatos Only © 2025 | Diseñado con ❤️ por <b>William A.Rosado</b></p>
       </footer>
     </Router>
   );
