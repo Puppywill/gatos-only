@@ -1,3 +1,10 @@
+html, body {
+    overflow-x: hidden; /* Oculta el scroll horizontal */
+    max-width: 100%; /* Asegura que no crezca más allá del viewport */
+}
+
+
+
 /* Fondo con degradado completo */
 body {
     background: linear-gradient(to bottom, #1a2a45, #122033);
