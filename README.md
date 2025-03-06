@@ -43,5 +43,5 @@ If you have any questions or suggestions, feel free to reach out:
 - **GitHub:** [yourusername](https://github.com/Puppywill)
 
 ---
-🐱 **Gatos Only © 2025** | Built with ❤️ by **Your Name**
+🐱 **Gatos Only © 2025** | Built with ❤️ by **William A. Rosado*
 
