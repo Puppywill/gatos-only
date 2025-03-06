@@ -1,0 +1,77 @@
+/* Contenedor principal */
+.contact-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+    margin: 30px auto;
+}
+
+/* Título */
+.contact-container h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Campos de entrada */
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Área de texto */
+.contact-container textarea {
+    resize: none;
+    height: 120px;
+}
+
+/* 🔴 Corrección: Mueve el botón debajo del textarea */
+/* Contenedor del botón */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra el botón */
+    margin-top: 20px; /* Aumenta la separación del formulario */
+    position: relative;
+}
+
+
+/* Estilos del botón */
+.contact-container button {
+    width: auto;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background: #ff9900;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Efecto hover */
+.contact-container button:hover {
+    background: #ffcc00;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-container {
+        width: 95%;
+        padding: 20px;
+    }
+}
