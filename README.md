@@ -3,7 +3,7 @@
 Welcome to **Gatos Only**, a beautiful and interactive gallery dedicated to showcasing adorable cats! 🐾
 
 ## 📸 Screenshot
-![Gatos Only Screenshot](screenshot.png)
+![Image](https://github.com/user-attachments/assets/782ec8a7-deb5-464b-be39-c5a9c0624db0)
 
 ## 🚀 Features
 - **Responsive Design** 📱💻
