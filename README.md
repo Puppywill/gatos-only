@@ -25,7 +25,11 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
+<<<<<<< HEAD
 git clone https://github.com/Puppywill/gatos-only.git
+=======
+git clone https://github.com/yourusername/gatos-only.git
+>>>>>>> 8a4fadf (Update README.md)
 
 # Navigate to the project folder
 cd gatos-only
