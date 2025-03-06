@@ -4,6 +4,8 @@ Welcome to **Gatos Only**, a beautiful and interactive gallery dedicated to show
 
 ## 📸 Screenshot
 ![Image](https://github.com/user-attachments/assets/782ec8a7-deb5-464b-be39-c5a9c0624db0)
+![Image](https://github.com/user-attachments/assets/2a0c3509-254a-449d-b912-2e6ede1e251d)
+![Image](https://github.com/user-attachments/assets/3fb22a4a-3c12-4963-8183-69d0a7d104cf)
 
 ## 🚀 Features
 - **Responsive Design** 📱💻
