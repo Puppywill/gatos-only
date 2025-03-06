@@ -40,8 +40,8 @@ Then, open `http://localhost:5173` in your browser to view the project.
 ## 📬 Contact
 If you have any questions or suggestions, feel free to reach out:
 - **Email:** williamarosado@gmail.com
-- **GitHub:** [yourusername](https://github.com/Puppywill)
+- **GitHub:** [Puppywill](https://github.com/Puppywill)
 
 ---
-🐱 **Gatos Only © 2025** | Built with ❤️ by **William A. Rosado*
+🐱 **Gatos Only © 2025** | Built with ❤️ by **William A. Rosado**
 
